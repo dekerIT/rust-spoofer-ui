@@ -1,53 +1,52 @@
-# Rust Spoofer UI
+# Rust Spoofer — UI Prototype
 
-A modern Rust-themed desktop utility interface built with Python and CustomTkinter.
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Language](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Framework](https://img.shields.io/badge/UI-Clean%20Win32-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Visual%20Prototype-2ea44f?style=for-the-badge)
+
+This repository contains a dark-themed Win32 interface prototype named **Rust Spoofer**.
+
+> [!IMPORTANT]
+> This project is UI demonstration software only. It does not read or change HWIDs, install or communicate with drivers, bypass hardware bans, interfere with Easy Anti-Cheat or other anti-cheat systems, or modify Rust or Windows security components.
 
 ## Preview
 
-![Rust Spoofer UI](rust-spoofer-ui/assets/screenshot.png)
+<p align="center">
+  <img src="resources/preview.png" alt="Rust Spoofer UI prototype preview" width="600">
+</p>
 
-## Features
+The application window is approximately 600×350 pixels and includes:
 
-- Modern dark-themed interface
-- Rust-inspired visual design
-- Custom application dashboard
-- Application status display
-- HWID status indicator
-- Interactive demonstration button
-- Responsive window layout
-- Native Windows window controls
+- A custom dark title bar and borderless window
+- A red Rust-style logo placeholder
+- A status section for `Ready`, `Spoofing...`, and `Successfully spoofed!`
+- A wide prototype button
+- A small application footer
 
-## Built With
+## Prototype Behavior
 
-- Python 3
-- CustomTkinter
-- Pillow
+Clicking **Spoof HWID** only demonstrates local UI transitions:
 
-## Installation
+1. The button becomes disabled.
+2. `Status` changes from `Ready` to `Spoofing...`.
+3. The UI waits for 2.5 seconds.
+4. `HWID` displays `Successfully spoofed!`.
+5. `Status` returns to `Ready`.
+6. The button becomes enabled again.
 
-**1. Clone the repository**
+No operating system identifiers or security products are accessed.
 
-```bash
-git clone https://github.com/dekerIT/rust-spoofer-ui.git
-```
+## Technology
 
-**2. Navigate to the project directory**
+- C++17
+- Win32 API
+- GDI+
+- Common Controls v6
+- CMake
+- Visual Studio 2022
 
-```bash
-cd rust-spoofer-ui
-```
-
-**3. Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-**4. Run the application**
-
-```bash
-python main.py
-```
+No Qt or third-party runtime framework is required.
 
 ## Project Structure
 
