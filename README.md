@@ -28,7 +28,7 @@ A modern Rust-themed desktop utility interface built with Python and CustomTkint
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/rust-spoofer-ui.git
+git clone https://github.com/dekerIT/rust-spoofer-ui.git
 ```
 
 **2. Navigate to the project directory**
