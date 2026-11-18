@@ -4,7 +4,7 @@ A modern Rust-themed desktop utility interface built with Python and CustomTkint
 
 ## Preview
 
-![Rust Spoofer UI](assets/screenshot.png)
+![Rust Spoofer UI](rust-spoofer-ui/assets/screenshot.png)
 
 ## Features
 
